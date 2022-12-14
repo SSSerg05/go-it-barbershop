@@ -1,0 +1,9 @@
+:root {
+    --color-red: red;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif; */
+}
