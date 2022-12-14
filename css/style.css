@@ -2,6 +2,11 @@
     --color-red: red;
 }
 
+@font-face {
+    font-family: OpenSans-700;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
 body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     /* font-family: 'Open Sans', sans-serif;
