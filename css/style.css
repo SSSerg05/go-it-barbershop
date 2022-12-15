@@ -1,5 +1,14 @@
 :root {
     --color-red: red;
+    --first-title-color: #fff;
+    --second-title-color:#fff
+    --first-btn-color: 
+    --second-btn-color: blue;
+    --main-text-color: red;
+    --first-title-color: blue;
+    --accent-color: tomato;
+    --typecal-lh: 1.36;
+    --lh: var(--typecal-lh);
 }
 
 @font-face {
@@ -25,7 +34,14 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+ }
+.list {
+    list-style: none; 
+}
+.link {
+    text-decoration: none;
+}
+
 
 .site-body {
 }
@@ -45,6 +61,11 @@ body {
     /* em = % від розміру шрифта( тобто 1.2px) */
     color: #fff;
 }
+.header-link:focus,
+.header-link:hover {
+    color: tomato;
+}
+
 .header-tel { 
     font-weight: 600;
     font-size: 12px;
@@ -63,4 +84,125 @@ body {
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: #fff;  
+}
+
+
+/* HERO */
+.hero {
+    background: #777;
+}
+.hero-link {     
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36; 
+    /* 16/12 = 1.33 */
+    letter-spacing: 0.2em;
+}
+.hero-link:hover,
+.hero-link:focus {
+    color: tomato;
+}
+.hero-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36; 
+    /* 16/12 = 1.33 */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;      
+}
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    line-height: 1.18; 
+    /* 16/12 = 1.33 */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--title-color, #fff);  
+}
+.hero-after-title{
+    font-size: 18px;
+    line-height: 1.67; 
+    /* 16/12 = 1.33 */
+    letter-spacing: 0.02em;
+    color: #fff;   
+}
+.about{}
+.about-list {}
+.about-item {}
+.about-pre-title{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36; 
+    /* 16/12 = 1.33 */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;  
+}
+.about-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 1.67; 
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;  
+}
+.about-after-title {
+
+}
+.about-text{
+    font-size: 18px;
+    line-height: 1.86; 
+    letter-spacing: 0.02em;
+}
+.about-button{
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33; 
+    /* 16/12 = 1.33 */
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;   
+}
+
+/* Prices */
+.prices{}
+.prices-list {}
+.prices-item {}
+.prices-pre-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.17; 
+    /* 16/12 = 1.33 */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;  
+}
+.prices-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 1.17; 
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;  
+}
+.prices-after-title {
+
+}
+.prices-item-text{
+    font-size: 18px;
+    line-height: 1.67; 
+    letter-spacing: 0.02em;
+}
+.prices-btn{
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33; 
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;   
 }
